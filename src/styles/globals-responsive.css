@@ -1,0 +1,59 @@
+
+@media (min-width:768px) and (max-width:991.98px)
+{
+   .main-menu
+   {
+	   display:none;
+   }
+   .company-list form {
+    width: 100%;
+}
+.company-list .result {
+    width: 100%;
+}
+}
+
+
+@media (min-width:320px) and (max-width:767.98px)
+{
+   .main-menu
+   {
+	   display:none;
+   }
+   header .logo {
+    width: 100%;
+}
+header .icon-text-wrap
+{
+	display:none;
+}
+.company-list {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+   .company-list .single-company .left {
+    flex: 1 0;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+   .company-list form {
+    width: 100%;
+}
+.company-list .single-company {
+
+    flex-direction: column;
+}
+.company-list .single-company  .view-more
+{
+	text-align:right;
+	
+}
+.company-list .single-company  .view-more a
+{
+	display:inline-block;
+}
+.company-list .result {
+    width: 100%;
+}
+}
+
