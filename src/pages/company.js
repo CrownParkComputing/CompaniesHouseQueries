@@ -43,12 +43,9 @@ export default function Company() {
 
 	const viewCompany = async (id) => {
 
-		console.log('company ID' + id);
-
 		try {
-			//https://api.company-information.service.gov.uk/company/
-			let url = 'https://corsproxy.io/?' + encodeURIComponent("https://api.company-information.service.gov.uk/company/" + id);
 
+			let url = 'https://corsproxy.io/?' + encodeURIComponent("https://api.company-information.service.gov.uk/company/" + id);
 
 			let { data } = await axios.get(url, { headers: { "Authorization": `${apiKey}` } });
 
