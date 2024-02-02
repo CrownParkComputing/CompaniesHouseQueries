@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
 import axios from 'axios'
 import Modal from 'react-modal';
 import Layout from '../components/layout'
@@ -8,8 +6,7 @@ import Layout from '../components/layout'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-import React, { useState, FormEvent } from 'react'
-import { Button } from 'bootstrap';
+import React, { useState } from 'react'
 
 export default function Company() {
 
